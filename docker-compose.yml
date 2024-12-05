@@ -1,0 +1,15 @@
+services:
+  jupyter:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./av1:/app/av1
+      - ./av2:/app/av2
+      - ./av3:/app/av3
+    environment:
+      - JUPYTER_ENABLE_LAB=yes  # Habilita JupyterLab (opcional)
+    restart: unless-stopped  # Reinicia automaticamente se cair
+    user: "${UID}:${GID}" 
