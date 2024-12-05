@@ -1,8 +1,10 @@
 services:
   jupyter:
-    build: 
-      context: .
-      dockerfile: Dockerfile
+    #build: 
+      #context: .
+      #dockerfile: Dockerfile
+      image: minha_imagem:latest  # Substitua pelo nome da sua imagem
+        ## usar a imagem carregada em vez de construir uma nova
     ports:
       - "8888:8888"
     volumes:
