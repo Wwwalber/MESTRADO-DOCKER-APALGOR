@@ -1,3 +1,4 @@
+
 def insertion_sort(arr):
     # Traverse through 1 to len(arr)
     for i in range(1, len(arr)):
