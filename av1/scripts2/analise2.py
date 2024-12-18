@@ -33,4 +33,4 @@ def gerar_dados_insertion():
         a = gerar_insertion_sort(lista_numeros) 
         g.append(a)
 
-    return t, g
+    return n, g
