@@ -16,7 +16,7 @@ def plotar_grafico_insertion_sort(n, g):
     plt.figure(figsize=(12, 8))
 
     # Gráfico dos resultados empíricos
-    plt.plot(n, g, 'o', label='Testes Empíricos (Insertion Sort)', color='orange')
+    plt.plot(n, g, '-', label='Testes Empíricos (Insertion Sort)', color='orange')
 
     # Gráficos das funções teóricas
     #plt.plot(n, f, 'r-', label='f(n) = 0.5n^2 + 3n')
@@ -25,7 +25,7 @@ def plotar_grafico_insertion_sort(n, g):
     # Adicionar elementos ao gráfico
     plt.title('Comparação dos Testes Empíricos e Funções Teóricas')
     plt.xlabel('Tamanho do Array (n)')
-    plt.ylabel('Número de Atribuições')
+    plt.ylabel('Número de Atribuições (g)')
     plt.grid(True)
     plt.legend()
 
