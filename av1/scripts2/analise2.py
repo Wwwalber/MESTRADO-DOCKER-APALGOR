@@ -27,10 +27,21 @@ def gerar_insertion_sort(arr):
 
 def gerar_dados_insertion():
     n = np.arange(1, 501, 10)
-    g = []
+    f_de_n_aleatorio = []
+    f_de_n_crescente = []
+    f_de_n_decrescente = []
+
     for t in n:
         lista_numeros = [random.randint(1, 1000) for _ in range(t)]
-        a = gerar_insertion_sort(lista_numeros) 
-        g.append(a)
+        lista_crescente = sorted(lista_numeros)
+        lista_decrescente = sorted(lista_numeros, reverse=True)
 
-    return n, g
+        a_aleatorio = gerar_insertion_sort(lista_numeros)
+        a_crescente = gerar_insertion_sort(lista_crescente)
+        a_decrescente = gerar_insertion_sort(lista_decrescente)
+
+        f_de_n_aleatorio.append(a_aleatorio)
+        f_de_n_crescente.append(a_crescente)
+        f_de_n_decrescente.append(a_decrescente)
+
+    return n, f_de_n_aleatorio, f_de_n_crescente, f_de_n_decrescente
