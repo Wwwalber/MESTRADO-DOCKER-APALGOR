@@ -126,6 +126,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+venv-apa02
 env/
 venv/
 ENV/
