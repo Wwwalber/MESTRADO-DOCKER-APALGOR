@@ -1,3 +1,4 @@
+Número de Trocas (Ordenados Descendentemente):
 Tamanho,Quicksort,Heapsort,Shellsort
 500,2315.0,3676.0,2100.0
 5000,34055.0,53436.0,28780.0

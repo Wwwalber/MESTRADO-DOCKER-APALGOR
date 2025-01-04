@@ -1,3 +1,4 @@
+Número de Comparações (Ordenados Ascendentemente):
 Tamanho,Quicksort,Heapsort,Shellsort
 500,42184.0,7756.0,3506.0
 5000,4171766.0,112126.0,55005.0
