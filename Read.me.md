@@ -24,4 +24,3 @@ Mantém seu ambiente Python isolado e reproduzível
 Permite trabalhar com os arquivos normalmente no seu computador
 Fornece um ambiente Jupyter completo com todas as bibliotecas necessárias
 Torna fácil compartilhar o ambiente com outras pessoas
- CopyRetryClaude does not have the ability to run the code it generates yet.Claude can make mistakes. Please double-check responses.
